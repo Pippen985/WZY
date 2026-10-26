@@ -97,19 +97,19 @@
 2. 单一交接源是《协作交接说明.md》。任何新产出都要落盘，并把路径写回该文件，供下游找到。
 3. 只消费上游产出：C 批改时读 B 的练习材料；A 调整时读 C 的得分与错题报告。
 4. 本 prompt 是创建项目用的快照。进度和文件清单以《协作交接说明.md》的最新内容为准；两者冲突时，先更新交接说明，再回写本 prompt。
-5. 工作区是独立 Git 仓库，分支 `main`，远程 `https://github.com/Pippen985/WZY.git`，不放入 `88_zyrd`。新产出落盘并回写交接说明后，在 `main` 上提交并推送。有测评、计划、材料或得分结果时，向 `学习档案.md` 追加一条历史。
+5. 工作区是独立 Git 仓库，分支 `main`，远程 `https://github.com/Pippen985/WZY.git`，本地目录 `/Users/capgemini/Documents/11-my-doc/32-WZY`，不放入 `88_zyrd`。新产出落盘并回写交接说明后，在 `main` 上提交并推送。有测评、计划、材料或得分结果时，向 `学习档案.md` 追加一条历史。
 
 ## 六、已有文件与当前状态
 
-**工作区根目录**：`/Users/capgemini/WorkBuddy/孩子学习/`
+**工作区根目录**：`/Users/capgemini/Documents/11-my-doc/32-WZY/`
 
 | 文件 | 绝对路径 | 状态 | 谁产出 | 谁消费 |
 | --- | --- | --- | --- | --- |
-| 学习档案 | `/Users/capgemini/WorkBuddy/孩子学习/学习档案.md` | 已建立。身份已确认；历史有项目建立与摸底卷两条 | 会话 A 维护 | 全部会话、父亲 |
-| 本 prompt | `/Users/capgemini/WorkBuddy/孩子学习/项目创建Prompt.md` | 已有，2026-10-26 快照 | 会话 A | 新建会话时粘贴 |
-| 协作交接说明 | `/Users/capgemini/WorkBuddy/孩子学习/协作交接说明.md` | 已有，单一交接源 | 会话 A 维护 | 全部会话 |
-| 摸底测评与按周规划（正式稿） | `/Users/capgemini/WorkBuddy/孩子学习/output/r20261026a/stage3/五年级数学摸底测评与按周学习规划.docx` | 已产出 | 会话 A | 父亲打印；全体可读 |
-| 规划正文草稿（含题目、答案、诊断表、周计划） | `/Users/capgemini/WorkBuddy/孩子学习/output/r20261026a/stage1/final_draft.md` | 已产出，与 docx 同源 | 会话 A | 会话读正文时优先用此 Markdown |
+| 学习档案 | `/Users/capgemini/Documents/11-my-doc/32-WZY/学习档案.md` | 已建立。身份已确认；历史有项目建立与摸底卷两条 | 会话 A 维护 | 全部会话、父亲 |
+| 本 prompt | `/Users/capgemini/Documents/11-my-doc/32-WZY/项目创建Prompt.md` | 已有，2026-10-26 快照 | 会话 A | 新建会话时粘贴 |
+| 协作交接说明 | `/Users/capgemini/Documents/11-my-doc/32-WZY/协作交接说明.md` | 已有，单一交接源 | 会话 A 维护 | 全部会话 |
+| 摸底测评与按周规划（正式稿） | `/Users/capgemini/Documents/11-my-doc/32-WZY/output/r20261026a/stage3/五年级数学摸底测评与按周学习规划.docx` | 已产出 | 会话 A | 父亲打印；全体可读 |
+| 规划正文草稿（含题目、答案、诊断表、周计划） | `/Users/capgemini/Documents/11-my-doc/32-WZY/output/r20261026a/stage1/final_draft.md` | 已产出，与 docx 同源 | 会话 A | 会话读正文时优先用此 Markdown |
 | 学习材料包 | 待会话 B 产出后写入交接说明 | 未产出 | 会话 B | WZY / 会话 C |
 | 每日打卡表 | 待会话 B 产出后写入交接说明 | 未产出 | 会话 B | 父亲 |
 | 得分 / 错题报告 | 待会话 C 产出后写入交接说明 | 未产出 | 会话 C | 会话 A |
@@ -150,4 +150,4 @@
 - **会话 A**：以数学老师专家身份进入。在收到 5 个模块得分之前，不把示例周计划当成 WZY 的正式计划，不出练习题，不批改。得分到达后，按诊断分档指定 1–2 个攻坚模块，写出可执行的 4 周计划，更新交接说明，并向学习档案追加一条历史。父亲未确认前，计划标注为待确认。
 - **会话 B**：先读《协作交接说明.md》。只有会话 A 已写明攻坚模块和周计划之后，才产出练习、例题讲解和打卡表，并把新文件路径写回交接说明。不得自行改学习方向。
 - **会话 C**：先读交接说明和上游材料。只做批改、小测/复测、得分统计和错因归类。报告交给会话 A，不在报告里改计划。
-- 新产出必须落在 `/Users/capgemini/WorkBuddy/孩子学习/` 下，回写《协作交接说明.md》，并在 `学习档案.md` 追加对应历史。
+- 新产出必须落在 `/Users/capgemini/Documents/11-my-doc/32-WZY/` 下，回写《协作交接说明.md》，并在 `学习档案.md` 追加对应历史。
